@@ -71,7 +71,7 @@ main{
   padding-top: 18rem;
 }
 
-main h1{
+main h2{
   font-size: 5rem;
 }
 
@@ -82,4 +82,8 @@ main p{
 
 main p.secondParagraph{
   font-size:2rem;
+}
+
+.displayNone{
+  display:none;
 }
