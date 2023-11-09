@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding:0;  
+  font-family: 'Poppins', sans-serif;
+}
+html{  
+  font-size: 10px;
+}
+body{    
+  margin: 0;  
+  color:white;
+  
+}
+div.wrapperHeaderAndMain{
+  /* background-color: rgba(183, 0, 255, 0.5); */
+}
+div.wrapperShadowMask{
+  background-image: url(../Images/background.jpg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  z-index: -2;  
+}
+
+
+div.wrapperShadowMask .shadowMask{
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+header{
+  /* background:rgba(164, 209, 144, .3); */
+  display: flex;
+  padding:2rem;
+  padding-top:3rem;
+  position: relative;
+}
+header ul{
+  list-style-type:none;
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+header ul a{
+  text-decoration: none;
+  color: white;
+  font-size:1.7rem;
+  padding:1rem;
+  border-radius: 0.4rem;
+  background-color: red;
+  padding: .5rem 1.5rem;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+div.wrapperHeaderAndMain{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+main{
+  /* background-color:rgba(255,165,0,.5); */
+  padding: 5rem;
+  text-align: center;
+  padding-top: 18rem;
+}
+
+main h1{
+  font-size: 5rem;
+}
+
+main p{  
+  font-size: 2.5rem;  
+  padding-top: 2rem;
+}
+
+main p.secondParagraph{
+  font-size:2rem;
+}
